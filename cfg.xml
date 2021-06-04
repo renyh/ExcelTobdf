@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <record marcSyntax="unimarc">
+    <field tag="010" ind="##">
+      <subfield code="a" label="ISBN" />
+      <subfield code="d" label="价格" />
+    </field>
+    <field tag="905" ind="##">
+      <subfield code="b" label="册条码" />
+      <subfield code="c" label="馆藏地点" />
+    </field>
+    <field tag="200" ind="1#">
+      <subfield code="a" label="题名" />
+      <subfield code="f" label="作者" />
+    </field>
+    <field tag="210" ind="##">
+      <subfield code="c" label="出版社" />
+      <subfield code="d" label="出版时间" />
+    </field>
+    <field tag="215" ind="##">
+      <subfield code="a" label="页数" />
+      <subfield code="d" label="尺寸" />
+    </field>
+    <field tag="330" ind="##">
+      <subfield code="a" label="摘要" />
+    </field>
+    <field tag="333" ind="##">
+      <subfield code="a" label="使用对象" />
+    </field>
+    <field tag="606" ind="##">
+      <subfield code="a" label="主题词" />
+    </field>
+    <field tag="690" ind="##">
+      <subfield code="a" label="分类号" />
+    </field>
+    <field tag="610" ind="##">
+      <subfield code="a" label="非控主题词" />
+    </field>
+  </record>
+</root>
